@@ -1,15 +1,8 @@
-# 🏪 Feria "El Baratillo" — Blog Interactivo con Canvas
+#  Feria "El Baratillo" — Blog Interactivo con Canvas
 
 Blog interactivo con animación Canvas y catálogo de productos. Proyecto educativo para aprender HTML5, CSS3, JavaScript y la API de Canvas.
 
-## 🚀 Demo
-
-Abrí `index.html` en tu navegador para ver:
-- Logo animado con efecto de rebote en Canvas
-- Catálogo de productos interactivo con botones
-- Panel lateral que se actualiza dinámicamente al hacer clic
-
-## 📁 Estructura
+## Estructura
 
 ```
 el-baratillo/
@@ -18,9 +11,9 @@ el-baratillo/
 └── script.js     → Animación Canvas + lógica de interacción
 ```
 
-## 🛠️ Ejercicios Resueltos
+## Ejercicios Resueltos
 
-### ⚡ Ejercicio 1: Velocidad de la animación
+### Ejercicio 1: Velocidad de la animación
 
 **Pregunta:** ¿Qué pasa si cambiamos `velocidad` de `1` a `3`?
 
@@ -32,22 +25,22 @@ el-baratillo/
 
 ---
 
-### 🎨 Ejercicio 2: Tema nocturno
+### Ejercicio 2: Tema nocturno
 
 **Cambios aplicados:**
 
 | Elemento | Color original | Nuevo color |
 |----------|---------------|-------------|
-| Fondo del letrero | `#ef4444` (rojo) | `#2e1065` (violeta oscuro) |
-| Borde decorativo | `#f59e0b` (ámbar) | `#22c55e` (verde neón) |
+| Fondo del letrero |rojo) | violeta oscuro |
+| Borde decorativo | ámbar | verde neón |
 
-El resultado es un logo con estética nocturna, ideal para un modo oscuro. El alto contraste entre violeta y verde mantiene la legibilidad del texto blanco.
+El resultado es un logo para un modo oscuro. El alto contraste entre violeta y verde mantiene la legibilidad del texto blanco.
 
 ---
 
-### 📦 Ejercicio 3: Producto nuevo
+### Ejercicio 3: Producto nuevo
 
-Se agregó **"Sartén Antiadherente"** a la categoría 🏠 Doméstico:
+Se agregó **"Sartén Antiadherente"** a la categoría Doméstico:
 
 ```html
 <button class="btn-producto" 
@@ -59,21 +52,3 @@ Se agregó **"Sartén Antiadherente"** a la categoría 🏠 Doméstico:
 
 La función `mostrarDetalle(nombre, precio, descripcion)` recibe tres parámetros y los inyecta dinámicamente en el panel lateral. Para agregar cualquier producto nuevo solo hay que copiar la estructura del botón y cambiar los valores.
 
-## 🧠 Conceptos clave
-
-| Concepto | Explicación |
-|----------|-------------|
-| `clearRect()` | Borra el lienzo en cada fotograma. Si se omite, el texto deja un rastro sólido |
-| `requestAnimationFrame()` | Llama a la función de animación de forma fluida, sincronizada con el monitor |
-| `transition` en CSS | Suaviza cambios de estado (color, tamaño) cuando el mouse pasa sobre un botón |
-| Control de rebote | `if (posX > 270 \|\| posX < 130) velocidad *= -1` — invierte la dirección al llegar al borde |
-
-## 🔧 Cómo usar
-
-```bash
-git clone https://github.com/emml8ac/el-baratillo.git
-cd el-baratillo
-# Abrí index.html en tu navegador
-```
-
-No requiere servidor ni dependencias — es HTML, CSS y JS puro.
