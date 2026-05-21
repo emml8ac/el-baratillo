@@ -8,17 +8,14 @@
 </head>
 <body>
 
-    <!-- Encabezado con el espacio para el Canvas Animado -->
     <header>
         <canvas id="logoCanvas" width="400" height="80"></canvas>
         <p class="subtitulo">¡Los mejores productos a precios de feria!</p>
     </header>
 
     <main class="contenedor">
-        <!-- Listado de Productos por Categoría -->
         <section class="productos">
 
-            <!-- Categoría: Electrónicos -->
             <div class="categoria">
                 <h2>⚡ Electrónicos</h2>
                 <div class="lista-productos">
@@ -28,19 +25,18 @@
                 </div>
             </div>
 
-            <!-- Categoría: Doméstico -->
             <div class="categoria">
                 <h2>🏠 Doméstico</h2>
                 <div class="lista-productos">
                     <button class="btn-producto" onclick="mostrarDetalle('Cocina Portátil', '$25', 'Ideal para camping, funciona con gas butano.')">Cocina Portátil</button>
                     <button class="btn-producto" onclick="mostrarDetalle('Cuchillos', '$8', 'Set de 3 cuchillos de acero inoxidable.')">Cuchillos</button>
                     <button class="btn-producto" onclick="mostrarDetalle('Encendedor', '$2', 'Recargable y resistente al viento.')">Encendedor</button>
+                    <button class="btn-producto" onclick="mostrarDetalle('Sartén Antiadherente', '$15', 'Sartén de 24 cm con recubrimiento de teflón, mango ergonómico.')">Sartén Antiadherente</button>
                 </div>
             </div>
 
         </section>
 
-        <!-- Panel de Visualización Lateral Dinámico -->
         <aside class="panel-info">
             <h3>Información del Producto</h3>
             <div id="vista-previa">

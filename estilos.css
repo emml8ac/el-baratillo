@@ -19,7 +19,6 @@ header {
     font-size: 0.95rem;
 }
 
-/* Distribución de la pantalla en dos columnas */
 .contenedor {
     max-width: 900px;
     margin: 30px auto;
@@ -50,7 +49,6 @@ header {
     flex-wrap: wrap;
 }
 
-/* EFECTO MULTIMEDIA BÁSICO (Transición y Escalado) */
 .btn-producto {
     background-color: #3b82f6;
     color: white;
@@ -59,13 +57,12 @@ header {
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    transition: all 0.3s ease; /* Suaviza el cambio de estado */
+    transition: all 0.3s ease;
 }
 
-/* Estado activo al pasar el mouse */
 .btn-producto:hover {
     background-color: #2563eb;
-    transform: scale(1.05); /* Efecto de crecimiento de tamaño */
+    transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
 }
 
@@ -73,7 +70,7 @@ header {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    border-top: 5px solid #ef4444; /* Línea de acento roja */
+    border-top: 5px solid #ef4444;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     height: fit-content;
 }
